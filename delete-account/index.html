@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Deletion — WheelDecider</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --ink:#1c2230; --muted:#5b6472; --accent:#3a5bd9;
+    --border:#e4e7ec; --code-bg:#f0f2f6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14161c; --card:#1c1f27; --ink:#e9ebf0; --muted:#a1a8b5; --accent:#7d97ff; --border:#2b2f3a; --code-bg:#20232c; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:32px 20px 64px;}
+  header.page{padding:8px 0 24px; border-bottom:1px solid var(--border); margin-bottom:28px;}
+  .brand{font-weight:700; font-size:1.05rem; letter-spacing:-0.01em;}
+  h1{font-size:1.6rem; margin:14px 0 6px; letter-spacing:-0.01em;}
+  .eff{color:var(--muted); font-size:0.92rem; margin:0 0 4px;}
+  nav.tabs{display:flex; gap:6px; flex-wrap:wrap; margin-top:16px;}
+  nav.tabs a{
+    font-size:0.86rem; color:var(--muted); text-decoration:none; padding:6px 12px;
+    border:1px solid var(--border); border-radius:999px; background:var(--card);
+  }
+  nav.tabs a.active{color:#fff; background:var(--accent); border-color:var(--accent);}
+  main{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:28px 28px 8px;}
+  h2{font-size:1.15rem; margin:28px 0 10px; letter-spacing:-0.005em;}
+  h2:first-child{margin-top:4px;}
+  p{margin:0 0 14px; color:var(--ink);}
+  ol,ul{margin:0 0 14px; padding-left:22px;}
+  li{margin-bottom:8px;}
+  a{color:var(--accent);}
+  strong{font-weight:650;}
+  .contact{background:var(--code-bg); border-radius:10px; padding:16px 18px; margin:18px 0 26px;}
+  .contact p{margin:0;}
+  footer.page{max-width:760px; margin:28px auto 0; padding:0 20px; color:var(--muted); font-size:0.82rem; text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <div class="brand">WheelDecider</div>
+    <h1>Data Deletion</h1>
+    <p class="eff">Effective date: September 23, 2026 · Published by Thanh Mich LTD</p>
+    <nav class="tabs">
+      <a href="../privacy/">Privacy Policy</a>
+      <a href="../terms/">Terms of Use</a>
+      <a href="../delete-account/" class="active">Data Deletion</a>
+      <a href="../support/">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>WheelDecider does not use accounts or sign-in — you can start using the App immediately, and
+    everything you create (wheels, game progress, avatar photo, preferences) is stored only on your own
+    device. This page explains how to delete that data, and how to control the identifiers used by the
+    third-party services described in our <a href="../privacy/">Privacy Policy</a>.</p>
+
+    <h2>Delete your data on this device</h2>
+    <p>Your wheels, coins, collected items, and avatar photo are stored in the App's private storage. To
+    delete them:</p>
+    <ol>
+      <li><strong>Clear the App's storage</strong> — Android Settings → Apps → WheelDecider → Storage &amp; cache → Clear storage. This removes all wheels, progress, and your avatar photo immediately, while keeping the App installed.</li>
+      <li><strong>Or uninstall the App</strong> — this removes the App and all of its locally stored data from your device at the same time.</li>
+    </ol>
+    <p>Neither of these actions requires contacting us, because this data was never sent to us in the first
+    place.</p>
+
+    <h2>Delete data held by third-party services</h2>
+    <p>The App uses advertising, analytics, crash-reporting, and attribution SDKs listed in our
+    <a href="../privacy/">Privacy Policy</a> (section 2), some of which may associate activity with your
+    device's advertising identifier. To limit or reset that:</p>
+    <ul>
+      <li>Go to your device's <strong>Settings → Privacy (or Google) → Ads</strong>, and choose <strong>Delete advertising ID</strong> or <strong>Reset advertising ID</strong> / <strong>Opt out of ads personalization</strong> (wording varies by Android version and OEM).</li>
+      <li>Where legally required, you can also change your choice in the in-app consent dialog the next time it is shown.</li>
+    </ul>
+
+    <h2>Requesting deletion directly from us</h2>
+    <p>If you have a request we haven't covered above — for example about data a third-party provider
+    retained on our behalf — email us and describe your request. We will respond within a reasonable time,
+    generally within 30 days.</p>
+    <div class="contact">
+      <p><strong>Thanh Mich LTD</strong><br>Email: <a href="mailto:thanhmichltd@gmail.com">thanhmichltd@gmail.com</a></p>
+    </div>
+  </main>
+</div>
+<footer class="page">© 2026 Thanh Mich LTD · WheelDecider</footer>
+</body>
+</html>

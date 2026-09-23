@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — WheelDecider</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --ink:#1c2230; --muted:#5b6472; --accent:#3a5bd9;
+    --border:#e4e7ec; --code-bg:#f0f2f6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14161c; --card:#1c1f27; --ink:#e9ebf0; --muted:#a1a8b5; --accent:#7d97ff; --border:#2b2f3a; --code-bg:#20232c; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:32px 20px 64px;}
+  header.page{padding:8px 0 24px; border-bottom:1px solid var(--border); margin-bottom:28px;}
+  .brand{font-weight:700; font-size:1.05rem; letter-spacing:-0.01em;}
+  h1{font-size:1.6rem; margin:14px 0 6px; letter-spacing:-0.01em;}
+  .eff{color:var(--muted); font-size:0.92rem; margin:0 0 4px;}
+  nav.tabs{display:flex; gap:6px; flex-wrap:wrap; margin-top:16px;}
+  nav.tabs a{
+    font-size:0.86rem; color:var(--muted); text-decoration:none; padding:6px 12px;
+    border:1px solid var(--border); border-radius:999px; background:var(--card);
+  }
+  nav.tabs a.active{color:#fff; background:var(--accent); border-color:var(--accent);}
+  main{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:28px 28px 8px;}
+  p{margin:0 0 14px; color:var(--ink);}
+  ul{margin:0 0 14px; padding-left:22px;}
+  li{margin-bottom:6px;}
+  a{color:var(--accent);}
+  strong{font-weight:650;}
+  .contact{background:var(--code-bg); border-radius:10px; padding:16px 18px; margin:6px 0 26px;}
+  .contact p{margin:0;}
+  footer.page{max-width:760px; margin:28px auto 0; padding:0 20px; color:var(--muted); font-size:0.82rem; text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <div class="brand">WheelDecider</div>
+    <h1>Support</h1>
+    <p class="eff">Published by Thanh Mich LTD</p>
+    <nav class="tabs">
+      <a href="../privacy/">Privacy Policy</a>
+      <a href="../terms/">Terms of Use</a>
+      <a href="../delete-account/">Data Deletion</a>
+      <a href="../support/" class="active">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Need help with WheelDecider, found a bug, or have feedback or a suggestion? We'd like to hear from
+    you.</p>
+    <div class="contact">
+      <p><strong>Email:</strong> <a href="mailto:thanhmichltd@gmail.com">thanhmichltd@gmail.com</a></p>
+    </div>
+    <p>When reporting a problem, it helps to include:</p>
+    <ul>
+      <li>Your device model and Android version</li>
+      <li>What you were doing when the issue happened</li>
+      <li>A screenshot, if you have one</li>
+    </ul>
+    <p>We aim to respond within a few business days.</p>
+    <p>For questions about how your data is handled, see our <a href="../privacy/">Privacy Policy</a> and
+    <a href="../delete-account/">Data Deletion page</a>. For the rules of using the App, see our
+    <a href="../terms/">Terms of Use</a>.</p>
+  </main>
+</div>
+<footer class="page">© 2026 Thanh Mich LTD · WheelDecider</footer>
+</body>
+</html>

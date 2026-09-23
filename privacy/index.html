@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — WheelDecider</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --ink:#1c2230; --muted:#5b6472; --accent:#3a5bd9;
+    --border:#e4e7ec; --code-bg:#f0f2f6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14161c; --card:#1c1f27; --ink:#e9ebf0; --muted:#a1a8b5; --accent:#7d97ff; --border:#2b2f3a; --code-bg:#20232c; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:32px 20px 64px;}
+  header.page{padding:8px 0 24px; border-bottom:1px solid var(--border); margin-bottom:28px;}
+  .brand{font-weight:700; font-size:1.05rem; letter-spacing:-0.01em;}
+  h1{font-size:1.6rem; margin:14px 0 6px; letter-spacing:-0.01em;}
+  .eff{color:var(--muted); font-size:0.92rem; margin:0 0 4px;}
+  nav.tabs{display:flex; gap:6px; flex-wrap:wrap; margin-top:16px;}
+  nav.tabs a{
+    font-size:0.86rem; color:var(--muted); text-decoration:none; padding:6px 12px;
+    border:1px solid var(--border); border-radius:999px; background:var(--card);
+  }
+  nav.tabs a.active{color:#fff; background:var(--accent); border-color:var(--accent);}
+  main{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:28px 28px 8px;}
+  h2{font-size:1.15rem; margin:28px 0 10px; letter-spacing:-0.005em;}
+  h2:first-child{margin-top:4px;}
+  p{margin:0 0 14px; color:var(--ink);}
+  ul,ol{margin:0 0 14px; padding-left:22px;}
+  li{margin-bottom:6px;}
+  a{color:var(--accent);}
+  table{width:100%; border-collapse:collapse; margin:0 0 18px; font-size:0.92rem;}
+  th,td{text-align:left; padding:9px 10px; border-bottom:1px solid var(--border); vertical-align:top;}
+  th{color:var(--muted); font-weight:600; font-size:0.82rem; text-transform:uppercase; letter-spacing:0.02em;}
+  strong{font-weight:650;}
+  .contact{background:var(--code-bg); border-radius:10px; padding:16px 18px; margin:18px 0 26px;}
+  .contact p{margin:0;}
+  footer.page{max-width:760px; margin:28px auto 0; padding:0 20px; color:var(--muted); font-size:0.82rem; text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <div class="brand">WheelDecider</div>
+    <h1>Privacy Policy</h1>
+    <p class="eff">Effective date: September 23, 2026 · Published by Thanh Mich LTD</p>
+    <nav class="tabs">
+      <a href="../privacy/" class="active">Privacy Policy</a>
+      <a href="../terms/">Terms of Use</a>
+      <a href="../delete-account/">Data Deletion</a>
+      <a href="../support/">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Thanh Mich LTD ("we", "us", "our") develops WheelDecider (the "App"), an Android app for spinning a
+    customizable decision wheel, playing three light-weight mini-games, and collecting cosmetic items with
+    in-game virtual coins. This Privacy Policy explains what data the App and the services it uses collect,
+    why, and how you can control it.</p>
+    <p>This policy describes WheelDecider as built, including the advertising and analytics software
+    development kits (SDKs) already included in the app, whether or not ads are turned on for your
+    particular version.</p>
+
+    <h2>1. Data that never leaves your device</h2>
+    <p>The following is stored only in the App's private storage on your device, using Android's local
+    DataStore/preferences mechanism. We do not operate a server that receives it, and it is not shared with
+    any third party:</p>
+    <ul>
+      <li><strong>Your wheels</strong> — names, options, and chosen colors that you create.</li>
+      <li><strong>Your game progress</strong> — rank, virtual coins earned by playing, and any collectible items you've unlocked.</li>
+      <li><strong>Your avatar photo</strong>, if you choose to set one. You pick it using the Android system photo picker, which does not require the App to ask for storage/photos permission; the selected image is copied into the App's private folder on your device and is never uploaded anywhere.</li>
+      <li><strong>App preferences</strong> — theme, text size, and sound/music on-off settings.</li>
+    </ul>
+    <p>Uninstalling the App, or clearing its storage in Android Settings, permanently deletes all of the
+    above (see our <a href="../delete-account/">Data Deletion page</a>).</p>
+
+    <h2>2. Data collected through third-party services</h2>
+    <p>WheelDecider uses the following third-party SDKs. Some of them may access your device's advertising
+    identifier or send us diagnostic/usage data. We list every SDK compiled into the App, even if a
+    particular feature (such as ads) is not turned on in your build yet, because the underlying SDKs and
+    permissions are already present.</p>
+    <table>
+      <tr><th>Service</th><th>What it may collect</th><th>Why</th></tr>
+      <tr><td>Google Firebase Analytics</td><td>App usage events, device and advertising identifiers, general locale/language</td><td>Understand how the App is used, so we can improve it</td></tr>
+      <tr><td>Google Firebase Crashlytics</td><td>Crash reports, stack traces, device model and OS version</td><td>Find and fix bugs</td></tr>
+      <tr><td>Google Firebase Remote Config</td><td>Device/app identifiers needed to fetch configuration</td><td>Deliver feature and ad-serving settings without an app update</td></tr>
+      <tr><td>Google Firebase Cloud Messaging</td><td>A device notification token (only if you allow notifications)</td><td>Send you notifications, e.g. about your wheels</td></tr>
+      <tr><td>Google Mobile Ads (AdMob) and AppLovin MAX mediation</td><td>Advertising ID, device signals, ad interaction data</td><td>Show and measure advertising</td></tr>
+      <tr><td>Meta (Facebook) SDK</td><td>Advertising ID, install/app events</td><td>Advertising and install attribution</td></tr>
+      <tr><td>Adjust</td><td>Advertising ID, install referrer, device signals</td><td>Attribute app installs to the marketing that led to them</td></tr>
+      <tr><td>TikTok Business SDK</td><td>Advertising ID, device/app events</td><td>Advertising measurement and install attribution</td></tr>
+      <tr><td>Google User Messaging Platform (UMP)</td><td>No personal data of its own</td><td>Shows the consent dialog required in the EEA/UK before the SDKs above are allowed to run</td></tr>
+    </table>
+    <p>These providers act as independent controllers or processors for the data they collect and are bound
+    by their own privacy policies:
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a> ·
+    <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase</a> ·
+    <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob</a> ·
+    <a href="https://www.applovin.com/privacy/" target="_blank" rel="noopener">AppLovin</a> ·
+    <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener">Meta</a> ·
+    <a href="https://www.adjust.com/terms/privacy-policy/" target="_blank" rel="noopener">Adjust</a> ·
+    <a href="https://ads.tiktok.com/i18n/official/policy/privacy" target="_blank" rel="noopener">TikTok Business</a>.</p>
+
+    <h2>3. Advertising identifier and your choices</h2>
+    <p>On Android, apps that show ads or measure installs typically use the Advertising ID (or, on newer
+    Android versions, the Privacy Sandbox attribution APIs) instead of anything that identifies you
+    personally by name. You can reset this identifier or opt out of personalized ads at any time in
+    <strong>Settings → Privacy → Ads</strong> (wording varies by Android version and OEM). Where legally
+    required (e.g., in the EEA/UK), the consent dialog described above lets you choose whether these SDKs
+    are allowed to use your data for advertising purposes at all.</p>
+
+    <h2>4. Permissions the App requests</h2>
+    <table>
+      <tr><th>Permission</th><th>What it's for</th></tr>
+      <tr><td>Internet / network state / Wi-Fi state</td><td>Required by the services in section 2 to function</td></tr>
+      <tr><td>Advertising ID (AD_ID) and Privacy Sandbox ad-services permissions</td><td>Advertising and attribution measurement (sections 2–3)</td></tr>
+      <tr><td>Notifications (POST_NOTIFICATIONS)</td><td>Asked after your first wheel spin, only if you allow it; used to send you notifications</td></tr>
+      <tr><td>Vibration</td><td>Haptic feedback when you interact with the wheel — collects no data</td></tr>
+      <tr><td>Billing (com.android.vending.BILLING)</td><td>Infrastructure used by our advertising library to check ad-free status. WheelDecider does not currently sell anything — there is no purchase screen in the App.</td></tr>
+    </table>
+    <p>We do not request camera, microphone, location, contacts, SMS, or photo/storage permissions.</p>
+
+    <h2>5. Virtual currency</h2>
+    <p>Coins earned in the wheel-spin and mining mini-games are entertainment-only virtual currency
+    generated by the App. They are unrelated to any cryptocurrency, cannot be purchased, and cannot be
+    exchanged for real money, goods, or any other asset.</p>
+
+    <h2>6. Children's privacy</h2>
+    <p>WheelDecider is not directed to children under 13, and we do not knowingly collect personal data
+    from children. If you believe a child has provided us with data, contact us using the details in
+    section 9 and we will take appropriate action.</p>
+
+    <h2>7. Data retention</h2>
+    <p>On-device data (section 1) stays on your device until you delete it yourself or uninstall the App.
+    Data collected by the third-party services in section 2 is retained according to each provider's own
+    retention policies; we do not separately store copies of it.</p>
+
+    <h2>8. Your rights and how to exercise them</h2>
+    <p>Depending on where you live, you may have rights to access, correct, or delete data associated with
+    you, or to object to certain processing. Because most App data lives only on your device, you can
+    exercise most of these rights yourself, at any time, by clearing the App's storage or uninstalling it,
+    and by using your device's Ad Settings to reset/opt out of the advertising identifier. For anything
+    else — including requests about data held by our third-party providers that you can't resolve yourself
+    — contact us using section 9, or see our <a href="../delete-account/">Data Deletion page</a> for
+    step-by-step instructions.</p>
+
+    <h2>9. Contact us</h2>
+    <div class="contact">
+      <p><strong>Thanh Mich LTD</strong><br>Email: <a href="mailto:thanhmichltd@gmail.com">thanhmichltd@gmail.com</a></p>
+    </div>
+
+    <h2>10. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time, for example when we add a new feature or SDK.
+    We will update the "Effective date" above when we do. Continued use of the App after a change means you
+    accept the updated policy.</p>
+  </main>
+</div>
+<footer class="page">© 2026 Thanh Mich LTD · WheelDecider</footer>
+</body>
+</html>
